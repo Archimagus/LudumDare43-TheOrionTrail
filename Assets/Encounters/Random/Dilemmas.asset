@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25decf6d7907bfc4d8f264f76f9df673, type: 3}
+  m_Name: Dilemmas
+  m_EditorClassIdentifier: 
+  Description: Sir, we have a situation that needs your attention.
+  Choices:
+  - Description: People have lost faith in your leadership and take off in some fighters.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: people
+        Value: -75
+      - Key: fighters
+        Value: -5
+    IsDefault: 0
+  - Description: A cult of sun worshrippers used escape pods to launch themselves
+      into a nearby star
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: people
+        Value: -150
+    IsDefault: 0
+  - Description: One of our water storage tanks sprung a leak.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: water
+        Value: -75
+    IsDefault: 0
+  - Description: Space rats must've come aboard at our last stop, they've eaten some
+      of our food.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: food
+        Value: -75
+    IsDefault: 0
+  - Description: Some condensation contaminated one of the fuel bunkers, so we had
+      to drain it.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: fuel
+        Value: -75
+    IsDefault: 0
+  - Description: The chief mechanic needed to scrap one of our fighters for spare
+      parts.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: fighters
+        Value: -2
+    IsDefault: 0
+  - Description: An alien fungus made it into one of our water storage tanks, we had
+      to dump the whole thing.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: water
+        Value: -150
+    IsDefault: 0
+  - Description: We have a high instance of allergic reactions to that Sindarian wheat
+      we picked up, so we had to space the whole batch.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: food
+        Value: -150
+    IsDefault: 0
+  - Description: Our reactor has a de-sync in the Minovsky regulator, we'll be running
+      at reduced efficiency until it gets fixed.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: fuel
+        Value: -150
+    IsDefault: 0
+  - Description: Looks like some of the fighters we picked up from that junk dealer
+      were lemons.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: fighters
+        Value: -5
+    IsDefault: 0
+  - Description: A metor impact has caused a hull breach in one of our ships!
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: damage
+        Value: 1
+    IsDefault: 0
+  - Description: We've entered an uncharted asteroid field, some of our ships have
+      been damaged!
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: damage
+        Value: 3
+    IsDefault: 0
+  Visuals: 00000000
+  Encountered: 0

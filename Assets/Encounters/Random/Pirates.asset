@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25decf6d7907bfc4d8f264f76f9df673, type: 3}
+  m_Name: Pirates
+  m_EditorClassIdentifier: 
+  Description: Pirating Raiding Party
+  Choices:
+  - Description: We can't afford to fight them!  Perform an emergency jump!
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: damage_chance
+        Value: 50
+      - Key: damage
+        Value: 1
+      - Key: fuel
+        Value: -25
+    IsDefault: 1
+  - Description: Destroy them and search the wreckage for water.
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: damage_chance
+        Value: 50
+      - Key: damage
+        Value: 3
+      - Key: fighter_chance
+        Value: 50
+      - Key: fighters
+        Value: -3
+      - Key: water
+        Value: 50
+    IsDefault: 0
+  - Description: Destroy them and search the wreckage for food.
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: damage_chance
+        Value: 50
+      - Key: damage
+        Value: 3
+      - Key: fighter_chance
+        Value: 50
+      - Key: fighters
+        Value: -3
+      - Key: food
+        Value: 50
+    IsDefault: 0
+  - Description: Destroy them and search the wreckage for fuel.
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: damage_chance
+        Value: 50
+      - Key: damage
+        Value: 3
+      - Key: fighter_chance
+        Value: 50
+      - Key: fighters
+        Value: -3
+      - Key: fuel
+        Value: 50
+    IsDefault: 0
+  - Description: They've taken hostages!  We have to rescue them!
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: damage_chance
+        Value: 50
+      - Key: damage
+        Value: 3
+      - Key: fighter_chance
+        Value: 50
+      - Key: fighters
+        Value: -3
+      - Key: people
+        Value: 50
+    IsDefault: 0
+  - Description: Destroy them and salvage what we can from the wreckage!
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: damage_chance
+        Value: 50
+      - Key: damage
+        Value: 3
+      - Key: fighter_chance
+        Value: 50
+      - Key: fighters
+        Value: -3
+      - Key: people
+        Value: 10
+      - Key: water
+        Value: 10
+      - Key: fuel
+        Value: 10
+      - Key: food
+        Value: 10
+    IsDefault: 0
+  - Description: They too strong!  We're taking hits!
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: damage_chance
+        Value: 66
+      - Key: damage
+        Value: 3
+      - Key: fighter_chance
+        Value: 50
+      - Key: fighters
+        Value: -5
+      - Key: water
+        Value: -25
+    IsDefault: 0
+  - Description: They too strong!  We're taking hits!
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: damage_chance
+        Value: 66
+      - Key: damage
+        Value: 3
+      - Key: fighter_chance
+        Value: 50
+      - Key: fighters
+        Value: -5
+      - Key: food
+        Value: -25
+    IsDefault: 0
+  - Description: They too strong!  We're taking hits!
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: damage_chance
+        Value: 66
+      - Key: damage
+        Value: 3
+      - Key: fighter_chance
+        Value: 50
+      - Key: fighters
+        Value: -5
+      - Key: fuel
+        Value: -25
+    IsDefault: 0
+  - Description: They too strong!  We're taking hits!
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: damage_chance
+        Value: 66
+      - Key: damage
+        Value: 3
+      - Key: fighter_chance
+        Value: 50
+      - Key: fighters
+        Value: -5
+      - Key: people
+        Value: -25
+    IsDefault: 0
+  Visuals: 04000000
+  Encountered: 0

@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
+  m_Name: IconSheet
+  m_EditorClassIdentifier: 
+  hashCode: 865685988
+  material: {fileID: 21066049647841554}
+  materialHashCode: 0
+  spriteSheet: {fileID: 2800000, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  spriteInfoList:
+  - id: 0
+    x: 0
+    y: 1792
+    width: 256
+    height: 256
+    xOffset: 0
+    yOffset: 217.1
+    xAdvance: 240.5
+    scale: 1
+    name: Water
+    hashCode: 104373205
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300022, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 1
+    x: 256
+    y: 1792
+    width: 256
+    height: 256
+    xOffset: 72.8
+    yOffset: 200.4
+    xAdvance: 317
+    scale: 1
+    name: Fuel
+    hashCode: 2633242
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300024, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 2
+    x: 512
+    y: 1792
+    width: 256
+    height: 256
+    xOffset: -18.44
+    yOffset: 207.1
+    xAdvance: 193.4
+    scale: 1
+    name: Food
+    hashCode: 2626498
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300026, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 3
+    x: 768
+    y: 1792
+    width: 256
+    height: 256
+    xOffset: 0
+    yOffset: 207.1
+    xAdvance: 225.2
+    scale: 1
+    name: People
+    hashCode: -1197249277
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300028, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 4
+    x: 1024
+    y: 1792
+    width: 256
+    height: 256
+    xOffset: -43.5
+    yOffset: 207.1
+    xAdvance: 253.2
+    scale: 1
+    name: Damage
+    hashCode: -1671533397
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300030, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 5
+    x: 1280
+    y: 1792
+    width: 256
+    height: 256
+    xOffset: 0
+    yOffset: 207.1
+    xAdvance: 256
+    scale: 1
+    name: Lose_Fighters
+    hashCode: 1797251258
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300032, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 6
+    x: 0
+    y: 1536
+    width: 256
+    height: 256
+    xOffset: 0
+    yOffset: 207.1
+    xAdvance: 256
+    scale: 1
+    name: ArrowRight
+    hashCode: -660643591
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300012, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 7
+    x: 256
+    y: 1536
+    width: 256
+    height: 256
+    xOffset: 0
+    yOffset: 207.1
+    xAdvance: 256
+    scale: 1
+    name: ArrowLeft
+    hashCode: -1060999358
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300034, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 8
+    x: 512
+    y: 1536
+    width: 256
+    height: 256
+    xOffset: 0
+    yOffset: 207.1
+    xAdvance: 256
+    scale: 1
+    name: ArrowUp
+    hashCode: -844980932
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300036, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 9
+    x: 768
+    y: 1536
+    width: 256
+    height: 256
+    xOffset: 0
+    yOffset: 207.1
+    xAdvance: 256
+    scale: 1
+    name: ArrowDown
+    hashCode: -1060723285
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300038, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 10
+    x: 1024
+    y: 1536
+    width: 256
+    height: 256
+    xOffset: 0
+    yOffset: 207
+    xAdvance: 292.4
+    scale: 1
+    name: Fighters
+    hashCode: -749333360
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300040, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 11
+    x: 1280
+    y: 1536
+    width: 256
+    height: 256
+    xOffset: 0
+    yOffset: 207
+    xAdvance: 256
+    scale: 1
+    name: Repair
+    hashCode: -967707171
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300042, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 12
+    x: 0
+    y: 1280
+    width: 269.9
+    height: 256
+    xOffset: -100
+    yOffset: 207
+    xAdvance: 137.2
+    scale: 1
+    name: Fighter_chance
+    hashCode: -473751522
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300044, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  - id: 13
+    x: 256
+    y: 1280
+    width: 269.9
+    height: 256
+    xOffset: -100
+    yOffset: 207
+    xAdvance: 137.2
+    scale: 1
+    name: Damage_chance
+    hashCode: -1822299210
+    unicode: 0
+    pivot: {x: -128, y: 128}
+    sprite: {fileID: 21300046, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+  fallbackSpriteAssets: []
+--- !u!21 &21066049647841554
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TextMeshPro/Sprite
+  m_Shader: {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 938dd307d2e730b40b2cd6716fd72d2c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}

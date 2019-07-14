@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25decf6d7907bfc4d8f264f76f9df673, type: 3}
+  m_Name: Anomalies
+  m_EditorClassIdentifier: 
+  Description: Scanners are picking up some strange readings.
+  Choices:
+  - Description: Get us out of here!
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: fuel
+        Value: -25
+    IsDefault: 1
+  - Description: Scanners indicate we can find some water nearby, but it's risky.
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: water
+        Value: 25
+      - Key: damage_chance
+        Value: 50
+      - Key: damage
+        Value: 1
+    IsDefault: 0
+  - Description: Scanners indicate we can find material for the replicators nearby,
+      but it's risky.
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: food
+        Value: 25
+      - Key: damage_chance
+        Value: 50
+      - Key: damage
+        Value: 1
+    IsDefault: 0
+  - Description: Scanners indicate we can find fuel nearby, but it's risky.
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: fuel
+        Value: 25
+      - Key: damage_chance
+        Value: 50
+      - Key: damage
+        Value: 1
+    IsDefault: 0
+  - Description: Scanners indicate there's a damaged civilian transport nearby, we
+      have to try and save them!
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: people
+        Value: 25
+      - Key: damage_chance
+        Value: 50
+      - Key: damage
+        Value: 1
+    IsDefault: 0
+  - Description: Scanners indicate we can salvage some fighters from a nearby derelict
+      carrier.
+    Event: {fileID: 11400000, guid: 3f966b26b725d054886063bfa010dfff, type: 2}
+    Data:
+      Data:
+      - Key: fighters
+        Value: 3
+      - Key: damage_chance
+        Value: 50
+      - Key: damage
+        Value: 1
+    IsDefault: 0
+  - Description: There's water near a black hole, we'll have to burn extra fuel to
+      reach it safely.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: water
+        Value: 50
+      - Key: fuel
+        Value: -25
+    IsDefault: 0
+  - Description: There's material for the replicators near a black hole, we'll have
+      to burn extra fuel to reach it safely.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: food
+        Value: 50
+      - Key: fuel
+        Value: -25
+    IsDefault: 0
+  - Description: There's a damaged civilian ship near a black hole, we'll have to
+      burn extra fuel to save them!
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: people
+        Value: 50
+      - Key: fuel
+        Value: -25
+    IsDefault: 0
+  - Description: There's a derelict carrier near a black hole, we can salvage some
+      fighters, but we'll need to burn extra fuel!
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: fighters
+        Value: 5
+      - Key: fuel
+        Value: -25
+    IsDefault: 0
+  Visuals: 02000000030000000600000007000000
+  Encountered: 0

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25decf6d7907bfc4d8f264f76f9df673, type: 3}
+  m_Name: Scanner Readings
+  m_EditorClassIdentifier: 
+  Description: Investigate interesting scanner readings.
+  Choices:
+  - Description: Scanners have detected freshwater ice desposits.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: water
+        Value: 25
+    IsDefault: 0
+  - Description: Scanners indicate mineral desposits on a nearby planet that our food
+      replicators can use.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: food
+        Value: 25
+    IsDefault: 0
+  - Description: Scanners indicate that we can harvest usable fuel from a nearby gas
+      giant.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: fuel
+        Value: 25
+    IsDefault: 0
+  - Description: Scanners are picking up lifesigns from a disabled civilian transport
+      nearby.
+    Event: {fileID: 11400000, guid: e73dff57f2d5f914096739b7b144105a, type: 2}
+    Data:
+      Data:
+      - Key: people
+        Value: 25
+    IsDefault: 0
+  Visuals: 3
+  Encountered: 0

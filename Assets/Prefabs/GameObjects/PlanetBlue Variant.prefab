@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &746201460499368241
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1949301654740002031}
+      propertyPath: m_Name
+      value: PlanetBlue Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062619731547725661}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062619731547725661}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062619731547725661}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062619731547725661}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062619731547725661}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062619731547725661}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062619731547725661}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062619731547725661}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062619731547725661}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062619731547725661}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4062619731547725661}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990567621948090229}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73d1bcbb3bfa9f24da7a16fa0cf06f6f, type: 2}
+    - target: {fileID: 5990567621948090231}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e97afb57dd128d44aad61795e91b2fa5, type: 2}
+    - target: {fileID: 1249262640348966366, guid: ab99cb005f63f85499bd45ba8e9b7fc8,
+        type: 3}
+      propertyPath: m_Name
+      value: PlanetBlue Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447412786889584196, guid: ab99cb005f63f85499bd45ba8e9b7fc8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73d1bcbb3bfa9f24da7a16fa0cf06f6f, type: 2}
+    - target: {fileID: 6447412786889584198, guid: ab99cb005f63f85499bd45ba8e9b7fc8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e97afb57dd128d44aad61795e91b2fa5, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ab99cb005f63f85499bd45ba8e9b7fc8, type: 3}
+--- !u!1 &1949301654740002031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1249262640348966366, guid: ab99cb005f63f85499bd45ba8e9b7fc8,
+    type: 3}
+  m_PrefabInstance: {fileID: 746201460499368241}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4062619731547725661 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3619303490734806636, guid: ab99cb005f63f85499bd45ba8e9b7fc8,
+    type: 3}
+  m_PrefabInstance: {fileID: 746201460499368241}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5990567621948090229 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6447412786889584196, guid: ab99cb005f63f85499bd45ba8e9b7fc8,
+    type: 3}
+  m_PrefabInstance: {fileID: 746201460499368241}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5990567621948090231 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6447412786889584198, guid: ab99cb005f63f85499bd45ba8e9b7fc8,
+    type: 3}
+  m_PrefabInstance: {fileID: 746201460499368241}
+  m_PrefabAsset: {fileID: 0}
