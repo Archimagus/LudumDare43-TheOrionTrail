@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 #pragma warning disable 0649
@@ -8,6 +9,7 @@ public class ProgressBar : MonoBehaviour
 	[SerializeField] IntReference _max = new IntReference(1000);
 	[SerializeField] IntReference _value;
 	[SerializeField] Image _fillImage;
+	[SerializeField] TextMeshProUGUI _countText;
 
 	private void Awake()
 	{
@@ -30,5 +32,6 @@ public class ProgressBar : MonoBehaviour
 	public void SetValue(int value)
 	{
 		_fillImage.fillAmount = Mathf.Clamp01(Mathf.InverseLerp(_min, _max, value));
+		if(_countText){ _countText.text = value.ToString();}
 	}
 }

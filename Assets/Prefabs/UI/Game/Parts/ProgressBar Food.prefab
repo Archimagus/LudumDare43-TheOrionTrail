@@ -7,10 +7,110 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7660260800504333878}
+    - target: {fileID: 0}
+      propertyPath: m_Color.r
+      value: 0.74886644
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.b
+      value: 0.5235849
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.r
+      value: 0.74886644
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.b
+      value: 0.5235849
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.r
+      value: 0.74886644
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.b
+      value: 0.5235849
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.r
+      value: 0.084649004
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.g
+      value: 0.154
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.b
+      value: 0.02243708
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172326213139783658, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
       propertyPath: m_Name
       value: ProgressBar Food
       objectReference: {fileID: 0}
+    - target: {fileID: 5243110188095316420, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
+      propertyPath: m_text
+      value: Food
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243110188095316420, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 28.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243110188095316420, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243110188095316420, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
+      propertyPath: m_textInfo.textComponent
+      value: 
+      objectReference: {fileID: 4685092454865926168}
+    - target: {fileID: 7172326212877579595, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.32403526
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172326212877579595, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5943396
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172326212877579595, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.09812209
+      objectReference: {fileID: 0}
+    - target: {fileID: 5552451884734814689, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
+      propertyPath: _value.Variable
+      value: 
+      objectReference: {fileID: 11400000, guid: f0c1f4693b805774ea5deb267f8cc9b9,
+        type: 2}
+    - target: {fileID: 5552451884734814689, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
+      propertyPath: _fillImage
+      value: 
+      objectReference: {fileID: 7660260800225356951}
+    - target: {fileID: 5552451884734814689, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
+      propertyPath: _countText
+      value: 
+      objectReference: {fileID: 7719175281068633280}
     - target: {fileID: 7172326213139783656, guid: 893ab7e70de2bb54a8d4599687e00d5c,
         type: 3}
       propertyPath: m_Color.r
@@ -26,18 +126,22 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.5235849
       objectReference: {fileID: 0}
-    - target: {fileID: 7660260800225356951}
-      propertyPath: m_Color.r
-      value: 0.32403526
-      objectReference: {fileID: 0}
-    - target: {fileID: 7660260800225356951}
-      propertyPath: m_Color.g
-      value: 0.5943396
-      objectReference: {fileID: 0}
-    - target: {fileID: 7660260800225356951}
-      propertyPath: m_Color.b
-      value: 0.09812209
-      objectReference: {fileID: 0}
+    - target: {fileID: 2247628127963566154, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300026, guid: 938dd307d2e730b40b2cd6716fd72d2c,
+        type: 3}
+    - target: {fileID: 7126817944160449820, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+        type: 3}
+      propertyPath: m_textInfo.textComponent
+      value: 
+      objectReference: {fileID: 7719175281068633280}
+    - target: {fileID: 1654690180230252950}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300026, guid: 938dd307d2e730b40b2cd6716fd72d2c,
+        type: 3}
     - target: {fileID: 4685092454865926168}
       propertyPath: m_text
       value: Food
@@ -50,11 +154,6 @@ PrefabInstance:
       propertyPath: m_textInfo.characterCount
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 1654690180230252950}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300026, guid: 938dd307d2e730b40b2cd6716fd72d2c,
-        type: 3}
     - target: {fileID: 4685092454865926168}
       propertyPath: m_text
       value: Food
@@ -139,53 +238,21 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 0.09812209
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
+    - target: {fileID: 7660260800225356951}
       propertyPath: m_Color.r
-      value: 0.74886644
+      value: 0.32403526
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
+    - target: {fileID: 7660260800225356951}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.5943396
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
+    - target: {fileID: 7660260800225356951}
       propertyPath: m_Color.b
-      value: 0.5235849
+      value: 0.09812209
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Color.r
-      value: 0.74886644
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Color.b
-      value: 0.5235849
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Color.r
-      value: 0.74886644
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Color.b
-      value: 0.5235849
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Color.r
-      value: 0.084649004
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Color.g
-      value: 0.154
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Color.b
-      value: 0.02243708
+    - target: {fileID: 7660260800504333878}
+      propertyPath: m_Name
+      value: ProgressBar Food
       objectReference: {fileID: 0}
     - target: {fileID: 7660260800504333878}
       propertyPath: m_Name
@@ -371,47 +438,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 7172326213139783658, guid: 893ab7e70de2bb54a8d4599687e00d5c,
-        type: 3}
-      propertyPath: m_Name
-      value: ProgressBar Food
-      objectReference: {fileID: 0}
-    - target: {fileID: 7172326212877579595, guid: 893ab7e70de2bb54a8d4599687e00d5c,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.32403526
-      objectReference: {fileID: 0}
-    - target: {fileID: 7172326212877579595, guid: 893ab7e70de2bb54a8d4599687e00d5c,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.5943396
-      objectReference: {fileID: 0}
-    - target: {fileID: 7172326212877579595, guid: 893ab7e70de2bb54a8d4599687e00d5c,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.09812209
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243110188095316420, guid: 893ab7e70de2bb54a8d4599687e00d5c,
-        type: 3}
-      propertyPath: m_text
-      value: Food
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243110188095316420, guid: 893ab7e70de2bb54a8d4599687e00d5c,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 28.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5243110188095316420, guid: 893ab7e70de2bb54a8d4599687e00d5c,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 2247628127963566154, guid: 893ab7e70de2bb54a8d4599687e00d5c,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300026, guid: 938dd307d2e730b40b2cd6716fd72d2c,
-        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 893ab7e70de2bb54a8d4599687e00d5c, type: 3}
 --- !u!1 &7660260800504333878 stripped
@@ -466,5 +492,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7719175281068633280 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7126817944160449820, guid: 893ab7e70de2bb54a8d4599687e00d5c,
+    type: 3}
+  m_PrefabInstance: {fileID: 704688186596678108}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

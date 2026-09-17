@@ -109,7 +109,7 @@ public class GameManager : MonoBehaviour
 			return;
 		}
 		_warpTime.Value = -_preWarpDelay.Value;
-		if(_randomEncounterTime <= 0)
+		if (_randomEncounterTime <= 0)
 			_randomEncounterTime = _progress.Value + Random.Range(_minProgressBeforeRandomEncounter, _maxProgressBeforeRandomEncounter);
 		queueOptionalEncounter();
 		_warpCoroutine = StartCoroutine(runWarp());
@@ -132,10 +132,9 @@ public class GameManager : MonoBehaviour
 					_progress.Value += Time.deltaTime;
 					CheckMusicStage();
 
-					if(_progress.Value >= _progressGoal.Value)
+					if (_progress.Value >= _progressGoal.Value)
 					{
 						gameWon();
-						StopCoroutine(_warpCoroutine);
 					}
 
 					foreach (var r in ResourceRates)
@@ -150,7 +149,6 @@ public class GameManager : MonoBehaviour
 					if (ResourceRates.Any(r => r.Resource.CurrentValue <= 0))
 					{
 						gameOver();
-						StopCoroutine(_warpCoroutine);
 					}
 
 					var lastEncounterDistance = _nextOptionalEncounterTime - p;
@@ -176,7 +174,7 @@ public class GameManager : MonoBehaviour
 		}
 	}
 
-	private void CheckMusicStage ()
+	private void CheckMusicStage()
 	{
 		float progressPercentage = _progress / _progressGoal;
 
@@ -222,12 +220,10 @@ public class GameManager : MonoBehaviour
 	private void gameWon()
 	{
 		GameWon.Raise();
-		SceneManager.LoadScene("GameWon");
 	}
 	private void gameOver()
 	{
 		GameOver.Raise();
-		SceneManager.LoadScene("GameOver");
 	}
 
 	private void enterWarp()
@@ -259,10 +255,23 @@ public class GameManager : MonoBehaviour
 	public void ShipDeath()
 	{
 		NumberOfShips.Value--;
-		if(NumberOfShips <=0)
+		if (NumberOfShips <= 0)
 		{
 			gameOver();
 		}
+	}
+
+	public void OnGameOver()
+	{
+		if(_warpCoroutine!=null) {StopCoroutine(_warpCoroutine);}
+		SceneManager.LoadScene("GameOver");
+
+	}
+	public void OnGameWon()
+	{
+		if(_warpCoroutine!=null) {StopCoroutine(_warpCoroutine);}
+		SceneManager.LoadScene("GameWon");
+
 	}
 }
 

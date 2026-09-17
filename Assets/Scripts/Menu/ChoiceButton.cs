@@ -37,7 +37,8 @@ public class ChoiceButton : MonoBehaviour
 			{
 				if (effect.Key.Contains("chance"))
 				{
-					chanceString = $"(<sprite name=\"{effect.Key.Capitalize()}\"> {effect.Value.ToString()}%)  ";
+					//TODO: Restore this when chances matter
+					chanceString = " ";// $"(<sprite name=\"{effect.Key.Capitalize()}\"> {effect.Value.ToString()}%)  ";
 				}
 				else if (chanceString != string.Empty)
 				{
