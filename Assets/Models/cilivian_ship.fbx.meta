@@ -1,166 +1,482 @@
 fileFormatVersion: 2
 guid: 77db1ac326b11924d97b53067eacfc08
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: pCube22
-    100004: pCube22_polySurface55_polySurface55
-    100006: polySurface37
-    100008: polySurface38
-    100010: polySurface39
-    100012: polySurface40
-    100014: polySurface41
-    100016: polySurface42
-    100018: polySurface43
-    100020: polySurface44
-    100022: polySurface45
-    100024: polySurface46
-    100026: polySurface47
-    100028: polySurface48
-    100030: polySurface49
-    100032: polySurface50
-    100034: polySurface51
-    100036: polySurface53
-    100038: polySurface53 1
-    100040: polySurface54
-    100042: polySurface54 1
-    100044: polySurface55
-    100046: polySurface55 1
-    100048: polySurface56
-    100050: polySurface57
-    100052: polySurface58
-    100054: transform100
-    100056: transform101
-    100058: transform102
-    100060: transform103
-    100062: transform104
-    100064: transform105
-    100066: transform106
-    100068: transform107
-    100070: transform108
-    100072: transform109
-    100074: transform16
-    100076: transform17
-    100078: transform18
-    100080: transform19
-    100082: transform89
-    100084: transform90
-    100086: transform91
-    100088: transform92
-    100090: transform93
-    100092: transform94
-    100094: transform95
-    100096: transform96
-    100098: transform97
-    100100: transform98
-    100102: transform99
-    100104: pCube46
-    100106: pCube49
-    100108: polySurface111
-    100110: polySurface112
-    100112: polySurface113
-    100114: polySurface114
-    100116: polySurface115
-    100118: polySurface116
-    100120: polySurface117
-    100122: polySurface118
-    400000: //RootNode
-    400002: pCube22
-    400004: pCube22_polySurface55_polySurface55
-    400006: polySurface37
-    400008: polySurface38
-    400010: polySurface39
-    400012: polySurface40
-    400014: polySurface41
-    400016: polySurface42
-    400018: polySurface43
-    400020: polySurface44
-    400022: polySurface45
-    400024: polySurface46
-    400026: polySurface47
-    400028: polySurface48
-    400030: polySurface49
-    400032: polySurface50
-    400034: polySurface51
-    400036: polySurface53
-    400038: polySurface53 1
-    400040: polySurface54
-    400042: polySurface54 1
-    400044: polySurface55
-    400046: polySurface55 1
-    400048: polySurface56
-    400050: polySurface57
-    400052: polySurface58
-    400054: transform100
-    400056: transform101
-    400058: transform102
-    400060: transform103
-    400062: transform104
-    400064: transform105
-    400066: transform106
-    400068: transform107
-    400070: transform108
-    400072: transform109
-    400074: transform16
-    400076: transform17
-    400078: transform18
-    400080: transform19
-    400082: transform89
-    400084: transform90
-    400086: transform91
-    400088: transform92
-    400090: transform93
-    400092: transform94
-    400094: transform95
-    400096: transform96
-    400098: transform97
-    400100: transform98
-    400102: transform99
-    400104: pCube46
-    400106: pCube49
-    400108: polySurface111
-    400110: polySurface112
-    400112: polySurface113
-    400114: polySurface114
-    400116: polySurface115
-    400118: polySurface116
-    400120: polySurface117
-    400122: polySurface118
-    2100000: lambert1
-    2100002: ship_secondary
-    2100004: ship_base
-    2100006: ship_exhaust
-    2300000: pCube22_polySurface55_polySurface55
-    2300002: pCube49
-    2300004: polySurface111
-    2300006: polySurface112
-    2300008: polySurface113
-    2300010: polySurface114
-    2300012: polySurface115
-    2300014: polySurface116
-    2300016: polySurface117
-    2300018: polySurface118
-    3300000: pCube22_polySurface55_polySurface55
-    3300002: pCube49
-    3300004: polySurface111
-    3300006: polySurface112
-    3300008: polySurface113
-    3300010: polySurface114
-    3300012: polySurface115
-    3300014: polySurface116
-    3300016: polySurface117
-    3300018: polySurface118
-    4300000: pCube22_polySurface55_polySurface55
-    4300002: polySurface111
-    4300004: polySurface112
-    4300006: polySurface113
-    4300008: polySurface114
-    4300010: polySurface115
-    4300012: polySurface116
-    4300014: polySurface117
-    4300016: polySurface118
-    4300018: pCube49
+  serializedVersion: 24600
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: pCube22
+  - first:
+      1: 100004
+    second: pCube22_polySurface55_polySurface55
+  - first:
+      1: 100006
+    second: polySurface37
+  - first:
+      1: 100008
+    second: polySurface38
+  - first:
+      1: 100010
+    second: polySurface39
+  - first:
+      1: 100012
+    second: polySurface40
+  - first:
+      1: 100014
+    second: polySurface41
+  - first:
+      1: 100016
+    second: polySurface42
+  - first:
+      1: 100018
+    second: polySurface43
+  - first:
+      1: 100020
+    second: polySurface44
+  - first:
+      1: 100022
+    second: polySurface45
+  - first:
+      1: 100024
+    second: polySurface46
+  - first:
+      1: 100026
+    second: polySurface47
+  - first:
+      1: 100028
+    second: polySurface48
+  - first:
+      1: 100030
+    second: polySurface49
+  - first:
+      1: 100032
+    second: polySurface50
+  - first:
+      1: 100034
+    second: polySurface51
+  - first:
+      1: 100036
+    second: polySurface53
+  - first:
+      1: 100038
+    second: polySurface53 1
+  - first:
+      1: 100040
+    second: polySurface54
+  - first:
+      1: 100042
+    second: polySurface54 1
+  - first:
+      1: 100044
+    second: polySurface55
+  - first:
+      1: 100046
+    second: polySurface55 1
+  - first:
+      1: 100048
+    second: polySurface56
+  - first:
+      1: 100050
+    second: polySurface57
+  - first:
+      1: 100052
+    second: polySurface58
+  - first:
+      1: 100054
+    second: transform100
+  - first:
+      1: 100056
+    second: transform101
+  - first:
+      1: 100058
+    second: transform102
+  - first:
+      1: 100060
+    second: transform103
+  - first:
+      1: 100062
+    second: transform104
+  - first:
+      1: 100064
+    second: transform105
+  - first:
+      1: 100066
+    second: transform106
+  - first:
+      1: 100068
+    second: transform107
+  - first:
+      1: 100070
+    second: transform108
+  - first:
+      1: 100072
+    second: transform109
+  - first:
+      1: 100074
+    second: transform16
+  - first:
+      1: 100076
+    second: transform17
+  - first:
+      1: 100078
+    second: transform18
+  - first:
+      1: 100080
+    second: transform19
+  - first:
+      1: 100082
+    second: transform89
+  - first:
+      1: 100084
+    second: transform90
+  - first:
+      1: 100086
+    second: transform91
+  - first:
+      1: 100088
+    second: transform92
+  - first:
+      1: 100090
+    second: transform93
+  - first:
+      1: 100092
+    second: transform94
+  - first:
+      1: 100094
+    second: transform95
+  - first:
+      1: 100096
+    second: transform96
+  - first:
+      1: 100098
+    second: transform97
+  - first:
+      1: 100100
+    second: transform98
+  - first:
+      1: 100102
+    second: transform99
+  - first:
+      1: 100104
+    second: pCube46
+  - first:
+      1: 100106
+    second: pCube49
+  - first:
+      1: 100108
+    second: polySurface111
+  - first:
+      1: 100110
+    second: polySurface112
+  - first:
+      1: 100112
+    second: polySurface113
+  - first:
+      1: 100114
+    second: polySurface114
+  - first:
+      1: 100116
+    second: polySurface115
+  - first:
+      1: 100118
+    second: polySurface116
+  - first:
+      1: 100120
+    second: polySurface117
+  - first:
+      1: 100122
+    second: polySurface118
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: pCube22
+  - first:
+      4: 400004
+    second: pCube22_polySurface55_polySurface55
+  - first:
+      4: 400006
+    second: polySurface37
+  - first:
+      4: 400008
+    second: polySurface38
+  - first:
+      4: 400010
+    second: polySurface39
+  - first:
+      4: 400012
+    second: polySurface40
+  - first:
+      4: 400014
+    second: polySurface41
+  - first:
+      4: 400016
+    second: polySurface42
+  - first:
+      4: 400018
+    second: polySurface43
+  - first:
+      4: 400020
+    second: polySurface44
+  - first:
+      4: 400022
+    second: polySurface45
+  - first:
+      4: 400024
+    second: polySurface46
+  - first:
+      4: 400026
+    second: polySurface47
+  - first:
+      4: 400028
+    second: polySurface48
+  - first:
+      4: 400030
+    second: polySurface49
+  - first:
+      4: 400032
+    second: polySurface50
+  - first:
+      4: 400034
+    second: polySurface51
+  - first:
+      4: 400036
+    second: polySurface53
+  - first:
+      4: 400038
+    second: polySurface53 1
+  - first:
+      4: 400040
+    second: polySurface54
+  - first:
+      4: 400042
+    second: polySurface54 1
+  - first:
+      4: 400044
+    second: polySurface55
+  - first:
+      4: 400046
+    second: polySurface55 1
+  - first:
+      4: 400048
+    second: polySurface56
+  - first:
+      4: 400050
+    second: polySurface57
+  - first:
+      4: 400052
+    second: polySurface58
+  - first:
+      4: 400054
+    second: transform100
+  - first:
+      4: 400056
+    second: transform101
+  - first:
+      4: 400058
+    second: transform102
+  - first:
+      4: 400060
+    second: transform103
+  - first:
+      4: 400062
+    second: transform104
+  - first:
+      4: 400064
+    second: transform105
+  - first:
+      4: 400066
+    second: transform106
+  - first:
+      4: 400068
+    second: transform107
+  - first:
+      4: 400070
+    second: transform108
+  - first:
+      4: 400072
+    second: transform109
+  - first:
+      4: 400074
+    second: transform16
+  - first:
+      4: 400076
+    second: transform17
+  - first:
+      4: 400078
+    second: transform18
+  - first:
+      4: 400080
+    second: transform19
+  - first:
+      4: 400082
+    second: transform89
+  - first:
+      4: 400084
+    second: transform90
+  - first:
+      4: 400086
+    second: transform91
+  - first:
+      4: 400088
+    second: transform92
+  - first:
+      4: 400090
+    second: transform93
+  - first:
+      4: 400092
+    second: transform94
+  - first:
+      4: 400094
+    second: transform95
+  - first:
+      4: 400096
+    second: transform96
+  - first:
+      4: 400098
+    second: transform97
+  - first:
+      4: 400100
+    second: transform98
+  - first:
+      4: 400102
+    second: transform99
+  - first:
+      4: 400104
+    second: pCube46
+  - first:
+      4: 400106
+    second: pCube49
+  - first:
+      4: 400108
+    second: polySurface111
+  - first:
+      4: 400110
+    second: polySurface112
+  - first:
+      4: 400112
+    second: polySurface113
+  - first:
+      4: 400114
+    second: polySurface114
+  - first:
+      4: 400116
+    second: polySurface115
+  - first:
+      4: 400118
+    second: polySurface116
+  - first:
+      4: 400120
+    second: polySurface117
+  - first:
+      4: 400122
+    second: polySurface118
+  - first:
+      21: 2100000
+    second: lambert1
+  - first:
+      21: 2100002
+    second: ship_secondary
+  - first:
+      21: 2100004
+    second: ship_base
+  - first:
+      21: 2100006
+    second: ship_exhaust
+  - first:
+      23: 2300000
+    second: pCube22_polySurface55_polySurface55
+  - first:
+      23: 2300002
+    second: pCube49
+  - first:
+      23: 2300004
+    second: polySurface111
+  - first:
+      23: 2300006
+    second: polySurface112
+  - first:
+      23: 2300008
+    second: polySurface113
+  - first:
+      23: 2300010
+    second: polySurface114
+  - first:
+      23: 2300012
+    second: polySurface115
+  - first:
+      23: 2300014
+    second: polySurface116
+  - first:
+      23: 2300016
+    second: polySurface117
+  - first:
+      23: 2300018
+    second: polySurface118
+  - first:
+      33: 3300000
+    second: pCube22_polySurface55_polySurface55
+  - first:
+      33: 3300002
+    second: pCube49
+  - first:
+      33: 3300004
+    second: polySurface111
+  - first:
+      33: 3300006
+    second: polySurface112
+  - first:
+      33: 3300008
+    second: polySurface113
+  - first:
+      33: 3300010
+    second: polySurface114
+  - first:
+      33: 3300012
+    second: polySurface115
+  - first:
+      33: 3300014
+    second: polySurface116
+  - first:
+      33: 3300016
+    second: polySurface117
+  - first:
+      33: 3300018
+    second: polySurface118
+  - first:
+      43: 4300000
+    second: pCube22_polySurface55_polySurface55
+  - first:
+      43: 4300002
+    second: polySurface111
+  - first:
+      43: 4300004
+    second: polySurface112
+  - first:
+      43: 4300006
+    second: polySurface113
+  - first:
+      43: 4300008
+    second: polySurface114
+  - first:
+      43: 4300010
+    second: polySurface115
+  - first:
+      43: 4300012
+    second: polySurface116
+  - first:
+      43: 4300014
+    second: polySurface117
+  - first:
+      43: 4300016
+    second: polySurface118
+  - first:
+      43: 4300018
+    second: pCube49
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -178,18 +494,18 @@ ModelImporter:
       name: ship_secondary
     second: {fileID: 2100000, guid: c3a170facf1bacf4d91f03f7ae367e7f, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
+    searchTexturesGlobally: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -211,25 +527,43 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    preBakeConvexCollisionMesh: 0
+    preBakeTriangleCollisionMesh: 0
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    importUVs: -1
+    importVertexColors: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -238,10 +572,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+    calculateBlendshapeNormalsDeltaFromImportedNormals: 1
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -251,13 +586,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -1,33 +1,81 @@
 fileFormatVersion: 2
 guid: 938dd307d2e730b40b2cd6716fd72d2c
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Water
-    21300002: Fuel
-    21300004: Food
-    21300006: People
-    21300008: Damage
-    21300010: Fighters
-    21300012: IconSheet_6
-    21300014: ArrowRight
-    21300016: ArrowLeft
-    21300018: ArrowUp
-    21300020: ArrowDown
-    21300022: IconSheet_0
-    21300024: IconSheet_1
-    21300026: IconSheet_2
-    21300028: IconSheet_3
-    21300030: IconSheet_4
-    21300032: IconSheet_5
-    21300034: IconSheet_7
-    21300036: IconSheet_8
-    21300038: IconSheet_9
-    21300040: IconSheet_10
-    21300042: IconSheet_11
-    21300044: IconSheet_12
-    21300046: IconSheet_13
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Water
+  - first:
+      213: 21300002
+    second: Fuel
+  - first:
+      213: 21300004
+    second: Food
+  - first:
+      213: 21300006
+    second: People
+  - first:
+      213: 21300008
+    second: Damage
+  - first:
+      213: 21300010
+    second: Fighters
+  - first:
+      213: 21300012
+    second: IconSheet_6
+  - first:
+      213: 21300014
+    second: ArrowRight
+  - first:
+      213: 21300016
+    second: ArrowLeft
+  - first:
+      213: 21300018
+    second: ArrowUp
+  - first:
+      213: 21300020
+    second: ArrowDown
+  - first:
+      213: 21300022
+    second: IconSheet_0
+  - first:
+      213: 21300024
+    second: IconSheet_1
+  - first:
+      213: 21300026
+    second: IconSheet_2
+  - first:
+      213: 21300028
+    second: IconSheet_3
+  - first:
+      213: 21300030
+    second: IconSheet_4
+  - first:
+      213: 21300032
+    second: IconSheet_5
+  - first:
+      213: 21300034
+    second: IconSheet_7
+  - first:
+      213: 21300036
+    second: IconSheet_8
+  - first:
+      213: 21300038
+    second: IconSheet_9
+  - first:
+      213: 21300040
+    second: IconSheet_10
+  - first:
+      213: 21300042
+    second: IconSheet_11
+  - first:
+      213: 21300044
+    second: IconSheet_12
+  - first:
+      213: 21300046
+    second: IconSheet_13
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -44,9 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -55,9 +106,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 1
     aniso: 1
-    mipBias: -100
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -74,15 +125,23 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationMethod: 0
   spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -92,8 +151,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -103,8 +164,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -114,7 +177,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -129,11 +194,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 14576cab11182ca4ba9b88e4fe492cfe
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -149,11 +216,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: dfe40561ae11b8e47a8f20e58a351fb4
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
@@ -169,11 +238,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 2e64dbbb68f44844ba91eddd7db6bd1c
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
@@ -189,11 +260,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 0a6951037e12d1c4ea7d4f1d820ff222
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
@@ -209,11 +282,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 635a5c90fea3a184fb00c199b457e6a2
+      internalID: 21300030
       vertices: []
       indices: 
       edges: []
@@ -229,11 +304,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 3d3dc7e15a456f4418605146970ef410
+      internalID: 21300032
       vertices: []
       indices: 
       edges: []
@@ -249,11 +326,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 89423df38065feb4b97fbb571c98c3f1
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -269,11 +348,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 1ebfc3684d7581146905d2c7d4afb0c5
+      internalID: 21300034
       vertices: []
       indices: 
       edges: []
@@ -289,11 +370,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 77b6b57e6299fcb449177e62dfb1061a
+      internalID: 21300036
       vertices: []
       indices: 
       edges: []
@@ -309,11 +392,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: b60b4b99aeb56c34489ea3ea110cdc71
+      internalID: 21300038
       vertices: []
       indices: 
       edges: []
@@ -329,11 +414,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: d34979a662cb15d4aa79b961cd8558a5
+      internalID: 21300040
       vertices: []
       indices: 
       edges: []
@@ -349,11 +436,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: f936bd5e7e718454aad8f8f91fc03553
+      internalID: 21300042
       vertices: []
       indices: 
       edges: []
@@ -369,11 +458,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: e6246acc4fe9f2d43a35f754631c5a23
+      internalID: 21300044
       vertices: []
       indices: 
       edges: []
@@ -389,26 +480,47 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: ca091b7475e0ac04e83c7bdc6abec696
+      internalID: 21300046
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 479f7b8764de84c44ad9ecb41d45f69a
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IconSheet_0: 21300022
+      IconSheet_1: 21300024
+      IconSheet_10: 21300040
+      IconSheet_11: 21300042
+      IconSheet_12: 21300044
+      IconSheet_13: 21300046
+      IconSheet_2: 21300026
+      IconSheet_3: 21300028
+      IconSheet_4: 21300030
+      IconSheet_5: 21300032
+      IconSheet_6: 21300012
+      IconSheet_7: 21300034
+      IconSheet_8: 21300036
+      IconSheet_9: 21300038
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

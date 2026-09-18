@@ -6,6 +6,8 @@
 /Assets/TextMesh Pro/
 \.vs/
 \.vscode/
+Logs/
+UserSettings/
 
 TextMesh Pro.meta
 
