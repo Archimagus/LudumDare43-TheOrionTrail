@@ -23,16 +23,25 @@ public class GameAnalyticsOrion : MonoBehaviour
 
 	public static GameAnalyticsOrion Instance { get; private set; }
 
+
+#if UNITY_EDITOR
+	private const string _analyticsEndpoint = "http://localhost:8080";
+	private const string _analyticsEnvironment = "development";
+#else
+	private const string _analyticsEndpoint = "https://orion-trail-analytics.fly.dev";
+	private const string _analyticsEnvironment = "production";
+#endif
+
 	private void Awake()
 	{
 		Instance = this;
 
 		GameAnalytics.Initialize(new AnalyticsOptions
 		{
-			Endpoint = AnalyticsSecrets.AnalyticsEndpoint,
+			Endpoint = _analyticsEndpoint,
 			GameId = "orion-trail",
 			IngestToken = AnalyticsSecrets.IngestKey,
-			Environment = "production",
+			Environment = _analyticsEnvironment,
 			BuildVersion = Application.version
 		});
 	}

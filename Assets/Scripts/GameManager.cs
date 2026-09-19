@@ -269,7 +269,7 @@ public class GameManager : MonoBehaviour
 	{
 		if (_warpCoroutine != null) { StopCoroutine(_warpCoroutine); }
 
-		string? lossReason = null;
+		string lossReason = "unknown";
 		var emptyResource = ResourceRates.FirstOrDefault(r => r.Resource.CurrentValue <= 0);
 		if (emptyResource != null)
 		{
@@ -278,10 +278,6 @@ public class GameManager : MonoBehaviour
 		else if (NumberOfShips <= 0)
 		{
 			lossReason = "all_ships_destroyed";
-		}
-		else
-		{
-			lossReason = "unknown";
 		}
 
 		GameAnalytics.EndSession("lost", lossReason, _progress.Value, _progressGoal.Value, GameAnalyticsOrion.Instance.GetSnapshot());

@@ -5,12 +5,6 @@ using UnityEngine;
 
 public class ChoiceButton : MonoBehaviour
 {
-	private struct ItemData
-	{
-		public string item;
-		public bool isPositive;
-	}
-
 	public TextMeshProUGUI Description;
 	public TextMeshProUGUI Results;
 
