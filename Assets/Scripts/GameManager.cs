@@ -79,6 +79,10 @@ public class GameManager : MonoBehaviour
 		}
 
 		_musicStage = MusicStage.ONE;
+	}
+
+	private void Start()
+	{
 		GameStart.Raise();
 	}
 
@@ -263,13 +267,31 @@ public class GameManager : MonoBehaviour
 
 	public void OnGameOver()
 	{
-		if(_warpCoroutine!=null) {StopCoroutine(_warpCoroutine);}
+		if (_warpCoroutine != null) { StopCoroutine(_warpCoroutine); }
+
+		string? lossReason = null;
+		var emptyResource = ResourceRates.FirstOrDefault(r => r.Resource.CurrentValue <= 0);
+		if (emptyResource != null)
+		{
+			lossReason = $"{emptyResource.Resource.name}_depleated";
+		}
+		else if (NumberOfShips <= 0)
+		{
+			lossReason = "all_ships_destroyed";
+		}
+		else
+		{
+			lossReason = "unknown";
+		}
+
+		GameAnalytics.EndSession("lost", lossReason, _progress.Value, _progressGoal.Value, GameAnalyticsOrion.Instance.GetSnapshot());
 		SceneManager.LoadScene("GameOver");
 
 	}
 	public void OnGameWon()
 	{
-		if(_warpCoroutine!=null) {StopCoroutine(_warpCoroutine);}
+		if (_warpCoroutine != null) { StopCoroutine(_warpCoroutine); }
+		GameAnalytics.EndSession("won", "reached_goal", _progress.Value, _progressGoal.Value, GameAnalyticsOrion.Instance.GetSnapshot());
 		SceneManager.LoadScene("GameWon");
 
 	}

@@ -14,6 +14,8 @@ public class ChoiceButton : MonoBehaviour
 	public TextMeshProUGUI Description;
 	public TextMeshProUGUI Results;
 
+	public EncounterReference ActiveEncounter;
+
 	private Choice _choice;
 	public Choice TheChoice
 	{
@@ -99,5 +101,7 @@ public class ChoiceButton : MonoBehaviour
 	public void HandleClick()
 	{
 		if (_choice != null) _choice.Activate();
+
+		GameAnalyticsOrion.Instance.TrackChoice("optional", ActiveEncounter.Value, _choice);
 	}
 }
